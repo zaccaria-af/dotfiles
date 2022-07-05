@@ -19,7 +19,7 @@ call plug#begin()
   Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
-set nocompatible            " disable compatibility to old-time vi
+set nocompatible            " redundant, but I better to have it explicit than implicit
 set showmatch               " show matching 
 set ignorecase              " case insensitive 
 set mouse=v                 " middle-click paste with 
